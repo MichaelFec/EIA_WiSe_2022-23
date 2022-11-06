@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+    float: inline-start;
+}
+
+.description{
+    color: grey;
+    background-position: top;
+    text-align: right;
+    font-size: 32px;
+    padding-right: 0px;
+    margin: 0px;
+    object-fit: cover;
+    text-decoration:underline
+    a, a:link, a:active, a:visited
+    text-decoration:none
+}
+a {text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+
+.ueberschriften {
+    background-image:url("/Users/michaelfechner/Documents/MKB/Semster_1/Entwicklung_Interaktiver_Anwendungen_1/Praktikum-Hr_Kaserer/EIA_WiSe_2022-23/Aufgabe_4/assets/photos/foto1_big.jpeg");
+}
+
+.zentriert {
+    width:100%;
+    height: 10cm;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+
+
+a {
+        color: grey;
+    }
+
+footer {
+        background-color:#eaeaea;
+        font-family: Helvetica, sans-serif;
+        font-size: 12px;
+        padding: 0px;
+        margin: 0px;
+      }
