@@ -1,0 +1,128 @@
+body {
+    background-color: white;
+    float: inline-start;
+    margin: 0px;
+}
+
+main {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+
+.description{
+    color: grey;
+    background-position: top;
+    float: right;
+    text-align:right;
+    font-size: 32px;
+    padding: 50px 10px 0px 0px;
+    margin: 0px;
+    object-fit: cover;
+    text-decoration:underline
+    a, a:link, a:active, a:visited
+    text-decoration:none
+}
+
+a {text-decoration:none;
+    color: grey;
+}
+
+.ueberschriften a:hover {
+    text-decoration:underline;
+    color: white;
+}
+
+.ueberschriften {
+    background-image:url(assets/photos/foto1_big.jpeg);
+    position:static;
+    object-fit:contain;
+}
+
+.ueberschriften img {
+    height: 50px;
+    width: 50px;
+    margin: 90px;
+}
+
+.logo {
+    opacity:40%;
+    padding: 0px 0px 0px 0px;
+}
+
+.logo:hover {
+    opacity:100%
+}
+
+
+.fotos {
+    transform: scale(1);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.fotos:hover {
+    transform: scale(1.2);
+}
+
+
+.contact {
+    text-decoration: none;
+}
+
+main {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+
+
+.contact{
+    margin: 90px;
+}
+
+.aboutme{
+    margin: 90px;
+}
+
+.flex-container {
+    display:flex;
+    align-items:baseline;
+    margin-left: 90px;
+}    
+
+.flex-item1 {
+    text-align: left;
+}
+
+.flex-item2 {
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-item2 img {
+    height: 35px;
+    width: 35px;
+}
+
+.flex-item3 {
+    margin-right: 9%
+}
+
+
+footer {
+        background-color:#eaeaea;
+        font-family: Helvetica, sans-serif;
+        font-size: 12px;
+        padding: 0px;
+      }
+
+.inputbox {
+    gap: 30px;
+    width: 250px;
+}
+
+.contactForm {
+    font-size: medium;
+    
+}
