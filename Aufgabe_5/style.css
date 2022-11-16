@@ -1,3 +1,8 @@
+@font-face {
+    font-family: monton;
+    src:url(Monoton-Regular.ttf);
+}
+
 body {
     background-color: white;
     float: inline-start;
@@ -9,6 +14,14 @@ main {
     padding-right: 90px;
     padding-bottom: 90px;
     padding-top: 90px;
+}
+
+.banner {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+    width: 200px;
 }
 
 .description{
@@ -25,6 +38,7 @@ main {
     text-decoration:none
 }
 
+
 a {text-decoration:none;
     color: grey;
 }
@@ -38,6 +52,28 @@ a {text-decoration:none;
     background-image:url(assets/photos/foto1_big.jpeg);
     position:static;
     object-fit:contain;
+    block-size: 500px;
+    background-image: url(assets/photos/foto1_big.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    padding: 0px 200px;
+    animation: animate 11s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0%, 100%{
+        background-image: url(assets/photos/foto1_big.jpeg);
+    }
+
+    33%{
+        background-image: url(assets/photos/teacup-7526022_1280.jpg);
+        background-size: 1300px;
+    }
+
+    66%{
+        background-image: url(assets/photos/highway-7542272_1280.jpg);
+        background-size: 1300px;
+    }
 }
 
 .ueberschriften img {
@@ -55,6 +91,10 @@ a {text-decoration:none;
     opacity:100%
 }
 
+h2 {
+    font-family: monoton;
+    font-size: 100px;
+}
 
 .fotos {
     transform: scale(1);
@@ -71,10 +111,9 @@ a {text-decoration:none;
 }
 
 main {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: monoton;
       text-align: center;
     }
-
 
 .contact{
     margin: 90px;
