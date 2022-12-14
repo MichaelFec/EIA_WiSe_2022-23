@@ -52,7 +52,7 @@ html, body {
     transform: scale(0.9);
   }
   
-  #playbutton{
+  #play{
     justify-content: center;
     color: white;
     transition: all .3s;
@@ -60,15 +60,15 @@ html, body {
     font-size: 100px;
    }
   
-  #playbutton:hover{
+  #play:hover{
     transform: scale(1.04);
   }
   
-  #playbutton:active{
+  #play:active{
     transform: scale(0.9);
   }
 
-  #stopbutton{
+  #stop{
     justify-content: center;
     color: white;
     transition: all .3s;
@@ -76,20 +76,42 @@ html, body {
     font-size: 100px;
   }
 
-  #stopbutton:hover{
+  #stop:hover{
     transform: scale(1.04);
   }
   
-  #stopbutton:active{
+  #stop:active{
     transform: scale(0.9);
   }
 
-  .fa-regular fa-record-vinyl{
-    width: 150px;
-    height: 150px;
+  #remix{
+    justify-content: center;
+    color: white;
     transition: all .3s;
+    display: flex;
+    font-size: 100px;
   }
 
-  .hidden{
-    display: none;
+  #remix:hover{
+
+ transform: scale(1.04);
   }
+
+  #remix:active{
+
+    transform: scale(0.9);
+  }
+
+
+  #playRemix{
+    color: #fff;
+    width: 600px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    font-size: 120px;
+ 
+   }
+
+   
