@@ -54,7 +54,7 @@ function PlayBeat(): void {
       document.getElementById("play").classList.add("fa-stop");
       interval = setInterval(myBeat, 350);
    
-      
+    
   //Stopp//
   }
   else {
