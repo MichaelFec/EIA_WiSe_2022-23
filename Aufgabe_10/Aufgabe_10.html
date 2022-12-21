@@ -6,21 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ToDo App</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="Aufgabe_10.js" defer></script>
+    <link rel="stylesheet" href="Aufgabe_10.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
 </head>
 
-<h1>ToDo App</h1>
 
 <body>
+    <main>
 
-    <button type='submit' class="addTodo">Add</button>
+    
+    <h1>ToDo App</h1>
 
     <div class="wrapper" id="wrap"></div>
-    <p id="counter"></p>
-    <input type="text" class="text" name="message" value="Go ahead"/>
+        <p id="counter">0</p>
+        
+        <div>
+            <div>
+                <input type="text" id="inputText" placeholder="Aufgabe hinzufügen"></input>
+                
+            </div>
+            <div id="toDoList"></div>
+        </div>
+    </main>
+</div>
 
 
 </body>
